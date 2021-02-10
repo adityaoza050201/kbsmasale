@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dealers{
+  background: sandybrown;
+}
+
+
+.tableimage{
+  padding-left: 90px;
+}
+
+@media screen and (max-width: 960px) {
+  @media screen and (max-width: 960px) {
+    .dealers  > h1 {
+      font-size: 50px;
+      margin-top: -10px;
+    }
+    .big-heading > h3{
+      font-size: 10px;
+    }
+  }
+
+  .tableimage{
+    height: 150px;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+  .big-heading > h3{
+    font-size: 20px;
+  }
+}
+
+.container-fluid{
+  padding: 12% 1%;
+}
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.mirchi{
+  border-radius: 50%;
+  width: 20%;
+  
+}
+
+.haldi{
+  border-radius: 50%;
+  width: 20%;
+  height: 15%;
+  
+}
+
+.dhania{
+  border-radius: 50%;
+  width: 20%;
+}
+
+.cumin{
+  border-radius: 50%;
+  width: 20%;
+}
+
+.kachari{
+  border-radius: 50%;
+  width: 20%;
+}
+
+.amchur{
+  border-radius: 50%;
+  width: 20%;
+}
+
+.h1{
+    text-align: center;
+}
